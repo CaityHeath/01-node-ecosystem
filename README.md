@@ -1,42 +1,47 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Code: Node-Ecosystem 
 
-### Author: Student/Group Name
+### Author: Caity
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/CaityHeath/01-node-ecosystem)
+* [travis](https://www.travis-ci.com/CaityHeath/01-node-ecosystem)
+* [heroku](https://caity-01-node-ecosystem.herokuapp.com/)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `aritmetic.js`
+##### `contains the following aritmetic functions:` <br> `add, subtract, multiply, divide`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `greeting.js`
+##### `contains the function hello`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+
+
+###### `add(a, b) -> a + b`
+Each of the aritmetic function performs the cooresponding arithmetic operation on the two parameters passed in and returns the resulting value. 
+
+
+
+###### `greeting(world) -> hello world`
+Greeting function takes in a string and concatenates it to the end of hello which produces and returns the greeting message  `hello [input]`. 
+
+
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+In order to run tests on these modules you will need to clone my repository by running the following  command: <br>
+`git clone https://github.com/CaityHeath/01-node-ecosystem.git`
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+Then install Node modules by running: <br>
+`npm i `
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+Create a .env file and set the port variable to a value between 1000 - 9999
 
-#### UML
-Link to an image of the UML for your application and response to events
+
+#### Running the tests
+* `npm test`
+
+#### Running the app 
+* `node index.js`
+
