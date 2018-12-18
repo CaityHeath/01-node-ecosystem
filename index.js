@@ -3,7 +3,7 @@
 const greet = require('./lib/greet.js');
 const math = require('./lib/arithmetic.js');
 const http = require('http');
-
+require('dotenv').config();
 
 console.log(greet.hello('JOHN'));
 console.log(math.add(1,3)); // 4
@@ -17,5 +17,5 @@ const requestHandler = (req,res) => {
 };
 
 const app = http.createServer(requestHandler);
-app.listen(3000, () => console.log('server up') );
+app.listen(process.env.PORT, () => console.log('server up') );
 
