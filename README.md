@@ -7,15 +7,15 @@
 
 ### Links and Resources
 * [repo](https://github.com/CaityHeath/01-node-ecosystem)
-* [travis](http://xyz.com)
-* [heroku]()
+* [travis](https://www.travis-ci.com/CaityHeath/01-node-ecosystem)
+* [heroku](https://caity-01-node-ecosystem.herokuapp.com/)
 
 ### Modules
 #### `aritmetic.js`
 ##### `contains the following aritmetic functions:` <br> `add, subtract, multiply, divide`
 
 #### `greeting.js`
-##### `hello`
+##### `contains the function hello`
 
 
 
@@ -36,11 +36,12 @@ In order to run tests on these modules you will need to clone my repository by r
 Then install Node modules by running: <br>
 `npm i `
 
+Create a .env file and set the port variable to a value between 1000 - 9999
 
 
-
-#### Running the app
+#### Running the tests
 * `npm test`
 
-
+#### Running the app 
+* `node index.js`
 
